@@ -1,14 +1,14 @@
-package vn.todolist.service.impl;
+package vn.todolist.services.impls;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
-import vn.todolist.dto.request.TodoRequest;
-import vn.todolist.entity.Todo;
-import vn.todolist.exception.ResourceNotFoundException;
-import vn.todolist.repository.TodoRepository;
-import vn.todolist.service.TodoService;
+import vn.todolist.dtos.request.TodoRequest;
+import vn.todolist.entities.Todo;
+import vn.todolist.exceptions.ResourceNotFoundException;
+import vn.todolist.repositories.TodoRepository;
+import vn.todolist.services.TodoService;
 
 @Service
 @RequiredArgsConstructor

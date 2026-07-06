@@ -1,4 +1,4 @@
-package vn.todolist.entity;
+package vn.todolist.entities;
 
 import jakarta.persistence.*;
 import lombok.*;

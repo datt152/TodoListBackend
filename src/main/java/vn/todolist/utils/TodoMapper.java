@@ -1,7 +1,7 @@
 package vn.todolist.utils;
 
-import vn.todolist.dto.response.TodoResponse;
-import vn.todolist.entity.Todo;
+import vn.todolist.dtos.response.TodoResponse;
+import vn.todolist.entities.Todo;
 
 public class TodoMapper {
     // Private constructor để ngăn chặn việc khởi tạo object từ class này

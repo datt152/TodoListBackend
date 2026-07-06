@@ -1,4 +1,4 @@
-package vn.todolist.dto.response;
+package vn.todolist.dtos.response;
 
 import lombok.Builder;
 import lombok.Getter;

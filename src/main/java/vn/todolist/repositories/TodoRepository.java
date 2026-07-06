@@ -1,10 +1,10 @@
-package vn.todolist.repository;
+package vn.todolist.repositories;
 
 
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.jpa.repository.JpaRepository;
-import vn.todolist.entity.Todo;
+import vn.todolist.entities.Todo;
 
 public interface TodoRepository extends JpaRepository<Todo, Long> {
     Page<Todo> findByTitleContainingIgnoreCase(String title, Pageable pageable);

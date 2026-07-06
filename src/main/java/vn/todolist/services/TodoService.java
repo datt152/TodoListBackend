@@ -1,9 +1,9 @@
-package vn.todolist.service;
+package vn.todolist.services;
 
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
-import vn.todolist.dto.request.TodoRequest;
-import vn.todolist.entity.Todo;
+import vn.todolist.dtos.request.TodoRequest;
+import vn.todolist.entities.Todo;
 
 public interface TodoService {
     Page<Todo> getTodos(String search, Boolean completed, Pageable pageable);

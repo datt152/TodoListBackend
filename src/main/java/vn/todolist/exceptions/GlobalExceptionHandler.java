@@ -1,4 +1,4 @@
-package vn.todolist.exception;
+package vn.todolist.exceptions;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

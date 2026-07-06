@@ -9,11 +9,11 @@ import org.springframework.data.domain.Sort;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-import vn.todolist.dto.request.TodoRequest;
-import vn.todolist.dto.response.PageResponse;
-import vn.todolist.dto.response.TodoResponse;
-import vn.todolist.entity.Todo;
-import vn.todolist.service.TodoService;
+import vn.todolist.dtos.request.TodoRequest;
+import vn.todolist.dtos.response.PageResponse;
+import vn.todolist.dtos.response.TodoResponse;
+import vn.todolist.entities.Todo;
+import vn.todolist.services.TodoService;
 import vn.todolist.utils.TodoMapper;
 
 
