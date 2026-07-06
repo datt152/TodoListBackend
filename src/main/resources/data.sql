@@ -1,0 +1,3 @@
+INSERT INTO todos (title, description, completed, created_at, updated_at) VALUES ('Lên kế hoạch làm bài test', 'Sử dụng Spring Boot 3 và React', true, CURRENT_TIMESTAMP, CURRENT_TIMESTAMP);
+INSERT INTO todos (title, description, completed, created_at, updated_at) VALUES ('Hoàn thiện RESTful API', 'Viết CRUD, Exception Handling và Phân trang', true, CURRENT_TIMESTAMP, CURRENT_TIMESTAMP);
+INSERT INTO todos (title, description, completed, created_at, updated_at) VALUES ('Xây dựng Frontend React', 'Dùng Tailwind CSS và Axios để gọi API', false, CURRENT_TIMESTAMP, CURRENT_TIMESTAMP);
