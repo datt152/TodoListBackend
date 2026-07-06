@@ -1,11 +1,11 @@
-# Stage 1: Build
-FROM maven:3.8.4-openjdk-17-slim AS build
+# Stage 1: Build - Dùng Maven + OpenJDK 21
+FROM maven:3.9.6-eclipse-temurin-21-jammy AS build
 WORKDIR /app
 COPY . .
 RUN mvn clean package -DskipTests
 
-# Stage 2: Run
-FROM openjdk:17-jdk-slim
+# Stage 2: Run - Dùng OpenJDK 21 slim
+FROM eclipse-temurin:21-jre-jammy
 WORKDIR /app
 COPY --from=build /app/target/*.jar app.jar
 EXPOSE 8080
